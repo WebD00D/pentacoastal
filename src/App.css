@@ -40,6 +40,7 @@
   background-position: center;
   background-size: contain;
   background-attachment: fixed;
+  text-align: center;
 }
 
 @media (max-width: 600px) {
@@ -89,6 +90,10 @@
 
 .stab {
   height: 24px;
+}
+
+.penta {
+  height: 60px;
 }
 
 .form-container {

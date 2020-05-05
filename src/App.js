@@ -9,6 +9,8 @@ import Photo_A from "./assets/surf/extra_1.JPG";
 import Photo_B from "./assets/surf/extra_2.JPG";
 import Photo_C from "./assets/surf/extra_3.JPG";
 
+import Penta from "./assets/surf/Penta.png";
+
 function App() {
   const renderSuccess = () => {
     const submitted = window.location.search.includes("submitted=true");
@@ -24,6 +26,7 @@ function App() {
           <img className="stab" src={StabLogo} />
         </div>
         <h1>World Premiere of Pentacoastal</h1>
+        <img src={Penta} className="penta" />
       </div>
       <div className="content-container">
         <h3 style={{ textAlign: "center" }}>Mark your calendars.</h3>
