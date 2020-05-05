@@ -73,7 +73,7 @@ function App() {
                 <p>
                   <div>
                     <b>Premier Location:</b> <br />
-                    Vans.com
+                    Youtube.com/vans
                   </div>
                 </p>
               </div>
