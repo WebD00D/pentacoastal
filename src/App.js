@@ -23,7 +23,7 @@ function App() {
         <div className="logo-nav">
           <img className="stab" src={StabLogo} />
         </div>
-        <h1>World Premier of Pentacoastal</h1>
+        <h1>World Premiere of Pentacoastal</h1>
       </div>
       <div className="content-container">
         <h3 style={{ textAlign: "center" }}>Mark your calendars.</h3>
@@ -89,24 +89,6 @@ function App() {
               <img className="inline-photo" src={Photo_C} />
               <figcaption>Photo C</figcaption>
             </div>
-
-            <h3>The RVSP and How it Works</h3>
-
-            <p>
-              Vans and Stab are partnering up to deliver Wade’s favorite pizza
-              (pepperoni, he also likes veggie, but who wants veggie?) to a
-              select number of people the night of the premiere. Check out below
-              to see if we’re in your area. If you’re not, sign up with your
-              email below for a free delivery coupon from Postmates.
-            </p>
-            {/* <img className="postmates" src={PostMatesLogo} /> */}
-            <h4>Postmates Details</h4>
-            <p>
-              Vans and Stab are partnering up to deliver Wade’s favorite pizza
-              (pepperoni, he also likes veggie, but who wants veggie?) to a
-              select number of people the night of the premiere. Check out below
-              to see if we’re in your area.
-            </p>
           </div>
         </div>
 
