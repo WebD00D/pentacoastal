@@ -34,18 +34,22 @@ function App() {
             <p>
               Pentacoastal, Wade Goodall's three-year-in-the-making magnum opus,
               starring Dane Reynolds, Nathan Fletcher, Harry Bryant and the rest
-              of the Vans’ team, is <b>premiering online May 14th.</b>
+              of the Vans’ team – is{" "}
+              <b>premiering online May 14th at 7pm PSt.</b>
             </p>
             <p>
-              Since it wouldn’t be a surf film premiere without a party, on May
-              14 Vans and Stab have partnered to bring you your own private
-              in-home premiere, complete with pizza from a local favorite
-              delivered straight to your door with the generous help from our
-              friends at PostMates.{" "}
+              It wouldn’t be a surf film premiere without a party. But since
+              we’re all self-isolating, Vans and Stab have partnered to bring
+              viewers their own private, in-home premiere, complete with pizza
+              from a local pie shop.
             </p>
             <p>
-              And it’s all on us. Sign up for the premiere pizza party here,
-              first come first serve.
+              The pizza’s on us, and it will be delivered straight to your door.
+            </p>
+            <p>
+              Sign up for the premiere pizza party below—first come first
+              served—and set an alarm to watch Pentacoastal live: 7 pm PST,
+              Thursday, May 14.
             </p>
 
             <hr />
@@ -56,13 +60,13 @@ function App() {
                 <p>
                   <div>
                     <b>Registration:</b> <br />
-                    Starts May 1st — Ends May 8th (First come, first serve){" "}
+                    Starts May 6th — Ends May 12th (First come, first served)
                   </div>
                 </p>
                 <p>
                   <div>
                     <b>Premier Date:</b> <br />
-                    Thursday, May 14th 8:00PM
+                    Thursday, May 14th 7:00PM
                   </div>
                 </p>
 
