@@ -28,9 +28,62 @@
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap"
       rel="stylesheet"
     />
-    <title>React App</title>
+    <title>Pentacoastal</title>
   </head>
   <body>
+    <!-- A little help for the Netlify post-processing bots -->
+    <form
+      name="contest"
+      netlify
+      netlify-honeypot="bot-field"
+      hidden
+      action="/?submitted=true"
+    >
+      <label>Select pizza joint</label>
+      <select name="location">
+        <option></option>
+        <option>The Pizza Place at Noriega - San Francisco, CA</option>
+        <option>Pleasure Pizza - Santa Cruz, CA</option>
+        <option>Woodstock's - Santa Cruz, CA</option>
+        <option>Gino's Sicilian Express - Santa Barbara, CA</option>
+        <option>Pizza Man Dan - Carpentteria, CA</option>
+        <option>Pizza Man Dan - Ventura, CA</option>
+        <option>Dagwoods - Santa Monica, CA</option>
+        <option>Manhattan Pizzeria - Manhattan Beach, CA</option>
+        <option>Pizzanista - Loong Beach, CA</option>
+        <option>Al's New York Cafe - Newport Beach, CA</option>
+        <option>Sgt Pepperoni - Costa Mesa, CA</option>
+        <option>Surfside Pizzeria - San Clemente, CA</option>
+        <option>San Clemente Pizza Co - San Clemente, CA</option>
+        <option>Privateer - Oceanside, CA</option>
+        <option>Best Pizza & Brew - Cardiff, CA</option>
+        <option>Vinnies Styles - Brooklyn, NY</option>
+        <option>Pizza Village - Montauk, NY</option>
+        <option>Lenny's Pizza - Lavalette, NJ</option>
+        <option>Nini's Pizza - Jacksonville Beach, FL</option>
+        <option>Flagler Avenue Pizza Co - New Smyrna, FL</option>
+        <option>Basic Goodness - Tofino, Canada</option>
+        <option>Pi Artisan Pizza - Lahaina, HI</option>
+        <option>Rhonda's - Terrigal, AUS</option>
+        <option>Justin Lane - Burleigh Heads, AUS</option>
+        <option>Legend Pizza - Byron Bay, AUS</option>
+        <option>Bondi, AUS</option>
+        <option>Noosa Heads, AUS</option>
+        <option>Melbourne, AUS</option>
+        <option>Coff's Harbour, AUS</option>
+        <option>Torquay, AUS</option>
+      </select>
+      <label>What's your name?</label>
+      <input name="name" type="text" />
+      <label>How old are you?</label>
+      <input name="age" type="text" />
+      <label>Email address</label>
+      <input name="email" type="email" />
+      <label>Delivery address</label>
+      <input name="address" type="text" />
+      <label>Phone number</label>
+      <input name="phone" type="text" />
+    </form>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--

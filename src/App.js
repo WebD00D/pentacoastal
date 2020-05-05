@@ -10,6 +10,12 @@ import Photo_B from "./assets/surf/extra_2.JPG";
 import Photo_C from "./assets/surf/extra_3.JPG";
 
 function App() {
+  // const renderSuccess = () => {
+  //   const submitted = window.location.search.includes("submitted=true");
+  //   const cx = submitted ? "submitted" : "";
+  //   return <Error className={cx}>Submitted! Thank you for your entry.</Error>;
+  // };
+
   return (
     <div className="wrapper" testId="test-id-app">
       <div className="slider-container">
@@ -101,24 +107,52 @@ function App() {
 
         <div className="form-container">
           <h3>RSVP</h3>
-          <form>
+          <form name="contact" method="post" action="/?submitted=true">
+            <input type="hidden" name="form-name" value="contest" />
             <label>Select pizza joint</label>
-            <select>
+            <select name="location">
               <option></option>
-              <option>Robertas - Culver City, CA</option>
-              <option>Robertas - Brooklyn, NY</option>
-              <option>I don't see one in my area</option>
+              <option>The Pizza Place at Noriega - San Francisco, CA</option>
+              <option>Pleasure Pizza - Santa Cruz, CA</option>
+              <option>Woodstock's - Santa Cruz, CA</option>
+              <option>Gino's Sicilian Express - Santa Barbara, CA</option>
+              <option>Pizza Man Dan - Carpentteria, CA</option>
+              <option>Pizza Man Dan - Ventura, CA</option>
+              <option>Dagwoods - Santa Monica, CA</option>
+              <option>Manhattan Pizzeria - Manhattan Beach, CA</option>
+              <option>Pizzanista - Loong Beach, CA</option>
+              <option>Al's New York Cafe - Newport Beach, CA</option>
+              <option>Sgt Pepperoni - Costa Mesa, CA</option>
+              <option>Surfside Pizzeria - San Clemente, CA</option>
+              <option>San Clemente Pizza Co - San Clemente, CA</option>
+              <option>Privateer - Oceanside, CA</option>
+              <option>Best Pizza & Brew - Cardiff, CA</option>
+              <option>Vinnies Styles - Brooklyn, NY</option>
+              <option>Pizza Village - Montauk, NY</option>
+              <option>Lenny's Pizza - Lavalette, NJ</option>
+              <option>Nini's Pizza - Jacksonville Beach, FL</option>
+              <option>Flagler Avenue Pizza Co - New Smyrna, FL</option>
+              <option>Basic Goodness - Tofino, Canada</option>
+              <option>Pi Artisan Pizza - Lahaina, HI</option>
+              <option>Rhonda's - Terrigal, AUS</option>
+              <option>Justin Lane - Burleigh Heads, AUS</option>
+              <option>Legend Pizza - Byron Bay, AUS</option>
+              <option>Bondi, AUS</option>
+              <option>Noosa Heads, AUS</option>
+              <option>Melbourne, AUS</option>
+              <option>Coff's Harbour, AUS</option>
+              <option>Torquay, AUS</option>
             </select>
             <label>What's your name?</label>
-            <input type="text" />
+            <input name="name" type="text" />
             <label>How old are you?</label>
-            <input type="text" />
+            <input name="age" type="text" />
             <label>Email address</label>
-            <input type="text" />
-            <label>Home address</label>
-            <input type="text" />
+            <input name="email" type="email" />
+            <label>Delivery address</label>
+            <input name="address" type="text" />
             <label>Phone number</label>
-            <input type="text" />
+            <input name="phone" type="text" />
             <button type="submit">Submit</button>
           </form>
         </div>
