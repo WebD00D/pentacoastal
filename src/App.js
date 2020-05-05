@@ -10,14 +10,15 @@ import Photo_B from "./assets/surf/extra_2.JPG";
 import Photo_C from "./assets/surf/extra_3.JPG";
 
 function App() {
-  // const renderSuccess = () => {
-  //   const submitted = window.location.search.includes("submitted=true");
-  //   const cx = submitted ? "submitted" : "";
-  //   return <Error className={cx}>Submitted! Thank you for your entry.</Error>;
-  // };
+  const renderSuccess = () => {
+    const submitted = window.location.search.includes("submitted=true");
+
+    return submitted ? <div className="submitted">RSVP SENT!</div> : null;
+  };
 
   return (
     <div className="wrapper" testId="test-id-app">
+      {renderSuccess()}
       <div className="slider-container">
         <div className="logo-nav">
           <img className="stab" src={StabLogo} />

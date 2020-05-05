@@ -1,7 +1,20 @@
 .wrapper {
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 16px;
+}
+
+.submitted {
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 12px;
 }
 
 .content-container {
