@@ -25,7 +25,7 @@ function App() {
           <span>X</span>
           <img className="vans" src={Vans} />
         </div>
-        <h1>World Premiere</h1>
+        <h1>World Premiere Of</h1>
         <img src={Penta} className="penta" />
       </div>
       <div className="content-container">
