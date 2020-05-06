@@ -1,10 +1,7 @@
 import React from "react";
 import "./App.css";
 
-import PostMatesLogo from "./assets/postmates-1.svg";
 import StabLogo from "./assets/stab-logo-white.png";
-import VansLogo from "./assets/vans.png";
-
 import Photo_A from "./assets/surf/extra_1.JPG";
 import Photo_B from "./assets/surf/extra_2.JPG";
 import Photo_C from "./assets/surf/extra_3.JPG";
@@ -14,7 +11,6 @@ import Penta from "./assets/surf/Penta.png";
 function App() {
   const renderSuccess = () => {
     const submitted = window.location.search.includes("submitted=true");
-
     return submitted ? <div className="submitted">RSVP SENT!</div> : null;
   };
 
@@ -68,15 +64,17 @@ function App() {
                 </p>
                 <p>
                   <div>
-                    <b>Premier Date:</b> <br />
-                    Thursday, May 14th 7:00PM
+                    <b>Premiere Date:</b> <br />
+                    Thursday, May 14th 7:00PM PST
+                    <br />
+                    Friday, May 15th 12:00PM AEST
                   </div>
                 </p>
 
                 <p>
                   <div>
-                    <b>Premier Location:</b> <br />
-                    Youtube.com/vans
+                    <b>Premiere Location:</b> <br />
+                    Youtube.com/Vans
                   </div>
                 </p>
               </div>
@@ -132,6 +130,8 @@ function App() {
               <option>Melbourne, AUS</option>
               <option>Coff's Harbour, AUS</option>
               <option>Torquay, AUS</option>
+              <option>Fiasco Restaurant - Coff's Harbour, AUS</option>
+              <option>Zachary's - Noosa Heads, AUS</option>
             </select>
             <label>What's your name?</label>
             <input name="name" type="text" />
