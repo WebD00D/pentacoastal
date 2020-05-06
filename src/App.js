@@ -6,7 +6,7 @@ import Photo_A from "./assets/surf/extra_1.JPG";
 import Photo_B from "./assets/surf/extra_2.JPG";
 import Photo_C from "./assets/surf/extra_3.JPG";
 
-import Penta from "./assets/surf/Penta.png";
+import Penta from "./assets/surf/Penta-white.png";
 import Vans from "./assets/surf/vans.png";
 import MovieDetails from "./assets/surf/movie-details.png";
 
@@ -25,21 +25,18 @@ function App() {
           <span>X</span>
           <img className="vans" src={Vans} />
         </div>
-        <h1>World Premiere of Pentacoastal</h1>
+        <h1>World Premiere</h1>
+        <img src={Penta} className="penta" />
       </div>
       <div className="content-container">
         <div className="video-container">
           <iframe
-            src="http://www.youtube.com/embed/2asL3KCtCgA"
+            src="https://www.youtube.com/embed/2asL3KCtCgA"
             height="315"
             width="560"
             allowfullscreen=""
             frameborder="0"
           ></iframe>
-        </div>
-        <div className="movie-headline">
-          <img src={Penta} className="penta" />
-          <img src={MovieDetails} className="movie-deets" />
         </div>
 
         {/* <img className="inline-photo" src={Photo_A} />
@@ -47,10 +44,10 @@ function App() {
         <div className="flex-container">
           <div>
             <p>
-              Pentacoastal, Wade Goodall's three-year-in-the-making magnum opus,
-              starring Dane Reynolds, Nathan Fletcher, Harry Bryant and the rest
-              of the Vans’ team – is{" "}
-              <b>premiering online May 14th at 7pm PSt.</b>
+              Pentacoastal, Wade Goodall and Shane Fletcher's
+              three-year-in-the-making magnum opus, starring Dane Reynolds,
+              Nathan Fletcher, Harry Bryant and the rest of the Vans’ team – is{" "}
+              <b>premiering online May 14th at 7pm PST.</b>
             </p>
             <p>
               It wouldn’t be a surf film premiere without a party. But since
@@ -96,7 +93,6 @@ function App() {
               </div>
               <div style={{ flex: "2" }}>
                 <img className="inline-photo" src={Photo_B} />
-                <figcaption>Photo B</figcaption>
               </div>
             </div>
 
@@ -104,7 +100,6 @@ function App() {
 
             <div>
               <img className="inline-photo" src={Photo_C} />
-              <figcaption>Photo C</figcaption>
             </div>
           </div>
         </div>
@@ -141,13 +136,11 @@ function App() {
               <option>Rhonda's - Terrigal, AUS</option>
               <option>Justin Lane - Burleigh Heads, AUS</option>
               <option>Legend Pizza - Byron Bay, AUS</option>
-              <option>Bondi, AUS</option>
-              <option>Noosa Heads, AUS</option>
-              <option>Melbourne, AUS</option>
-              <option>Coff's Harbour, AUS</option>
-              <option>Torquay, AUS</option>
               <option>Fiasco Restaurant - Coff's Harbour, AUS</option>
               <option>Zachary's - Noosa Heads, AUS</option>
+              <option>Bondi, AUS</option>
+              <option>Melbourne, AUS</option>
+              <option>Torquay, AUS</option>
             </select>
             <label>What's your name?</label>
             <input name="name" type="text" />
