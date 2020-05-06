@@ -63,16 +63,14 @@ function App() {
               served—and set an alarm to watch Pentacoastal live: 7 pm PST,
               Thursday, May 14.
             </p>
-
             <hr />
-
             <div className="flex-content">
               <div style={{ flex: "1" }}>
                 <h3>General Information</h3>
                 <p>
                   <div>
                     <b>Registration:</b> <br />
-                    Starts May 6th — Ends May 12th (First come, first served)
+                    Starts May 7th — Ends May 12th (First come, first served)
                   </div>
                 </p>
                 <p>
