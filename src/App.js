@@ -7,6 +7,8 @@ import Photo_B from "./assets/surf/extra_2.JPG";
 import Photo_C from "./assets/surf/extra_3.JPG";
 
 import Penta from "./assets/surf/Penta.png";
+import Vans from "./assets/surf/vans.png";
+import MovieDetails from "./assets/surf/movie-details.png";
 
 function App() {
   const renderSuccess = () => {
@@ -20,14 +22,28 @@ function App() {
       <div className="slider-container">
         <div className="logo-nav">
           <img className="stab" src={StabLogo} />
+          <span>X</span>
+          <img className="vans" src={Vans} />
         </div>
         <h1>World Premiere of Pentacoastal</h1>
-        <img src={Penta} className="penta" />
       </div>
       <div className="content-container">
-        <h3 style={{ textAlign: "center" }}>Mark your calendars.</h3>
-        <img className="inline-photo" src={Photo_A} />
-        <figcaption>Photo A – Some caption goes here</figcaption>
+        <div className="video-container">
+          <iframe
+            src="http://www.youtube.com/embed/2asL3KCtCgA"
+            height="315"
+            width="560"
+            allowfullscreen=""
+            frameborder="0"
+          ></iframe>
+        </div>
+        <div className="movie-headline">
+          <img src={Penta} className="penta" />
+          <img src={MovieDetails} className="movie-deets" />
+        </div>
+
+        {/* <img className="inline-photo" src={Photo_A} />
+        <figcaption>Photo A – Some caption goes here</figcaption> */}
         <div className="flex-container">
           <div>
             <p>
@@ -74,7 +90,7 @@ function App() {
                 <p>
                   <div>
                     <b>Premiere Location:</b> <br />
-                    Youtube.com/Vans
+                    YouTube.com/Vans
                   </div>
                 </p>
               </div>
