@@ -44,7 +44,7 @@ function App() {
         <div className="flex-container">
           <div>
             <p>
-              Pentacoastal, Wade Goodall and Shane Fletcher's
+              Pentacoastal – Wade Goodall and Shane Fletcher's
               three-year-in-the-making magnum opus, starring Dane Reynolds,
               Nathan Fletcher, Harry Bryant and the rest of the Vans’ team – is{" "}
               <b>premiering online May 14th at 7pm PST.</b>
