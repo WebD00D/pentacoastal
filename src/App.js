@@ -112,10 +112,15 @@ function App() {
               <option>The Pizza Place at Noriega - San Francisco, CA</option>
               <option>Pleasure Pizza - Santa Cruz, CA</option>
               <option>Woodstock's - Santa Cruz, CA</option>
-              <option>Gino's Sicilian Express - Santa Barbara, CA</option>
+
               <option>Pizza Man Dan - Carpentteria, CA</option>
               <option>Pizza Man Dan - Ventura, CA</option>
-              <option>Dagwoods - Santa Monica, CA</option>
+              <option>Mr Moto Pizza House - La Jolla, CA</option>
+              <option>
+                Mr Moto Pizza House - Pacific Beach (San Diego), CA
+              </option>
+              <option>Mr Moto Pizza House - Ocean Beach (San Diego), CA</option>
+              <option>Leucadia Pizza Kitchen - Carlsbad, CA</option>
               <option>Manhattan Pizzeria - Manhattan Beach, CA</option>
               <option>Pizzanista - Loong Beach, CA</option>
               <option>Al's New York Cafe - Newport Beach, CA</option>
