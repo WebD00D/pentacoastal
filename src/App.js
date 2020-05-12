@@ -45,9 +45,9 @@ function App() {
           <div>
             <p>
               Pentacoastal – Wade Goodall and Shane Fletcher's
-              three-year-in-the-making magnum opus, starring Dane Reynolds,
+              two-year-in-the-making magnum opus, starring Dane Reynolds,
               Nathan Fletcher, Harry Bryant and the rest of the Vans’ team – is{" "}
-              <b>premiering online May 14th at 7pm PST.</b>
+              <b>premiering online May 14th at 7pm PDT.</b>
             </p>
             <p>
               It wouldn’t be a surf film premiere without a party. But since
@@ -60,7 +60,7 @@ function App() {
             </p>
             <p>
               Sign up for the premiere pizza party below—first come first
-              served—and set an alarm to watch Pentacoastal live: 7 pm PST,
+              served—and set an alarm to watch Pentacoastal live: 7 pm PDT,
               Thursday, May 14.
             </p>
             <hr />
@@ -137,6 +137,7 @@ function App() {
               <option>Basic Goodness - Tofino, Canada</option>
               <option>Pi Artisan Pizza - Lahaina, HI</option>
               <option>Rhonda's - Terrigal, AUS</option>
+              <option>Pocket Pizza Manly - Manly, AUS</option>
               <option>Justin Lane - Burleigh Heads, AUS</option>
               <option>Legend Pizza - Byron Bay, AUS</option>
               <option>Fiasco Restaurant - Coff's Harbour, AUS</option>
