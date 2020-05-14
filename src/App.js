@@ -102,7 +102,7 @@ function App() {
           </div>
         </div>
 
-        <div className="form-container">
+        {/* <div className="form-container">
           <h3>RSVP</h3>
           <form name="contact" method="post" action="/?submitted=true">
             <input type="hidden" name="form-name" value="contest" />
@@ -158,7 +158,7 @@ function App() {
             <input name="phone" type="text" />
             <button type="submit">Submit</button>
           </form>
-        </div>
+        </div> */}
 
         {/* <div className="logo-row">
           <img className="vans" src={VansLogo} />
